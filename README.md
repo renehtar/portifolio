@@ -26,19 +26,20 @@
 
   <p>ou</p>
 
-  <a href = "mailto:reneilson22@gmail.com">
-    <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
+  <a href="mailto: reneilson22@gmail.com">
+    <img alt="Contato pelo Email" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
-  
-  <a href="https://www.linkedin.com/in/francisco-reneilson/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+  <a href="https://www.linkedin.com/in/francisco-reneilson/">
+    <img alt="Contato pelo Linkedin" target="_blank" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
   
 </div>
 
 <h2>Descrição</h2>
 
-<p>Essa aplicação foi criada para mostrar um pouco sobre mim e minhas habilidades com programação web. Estarei atualizando os projetos conforme eu me aprimoro. bom proveito. :)</p>
+<p>
+  Essa aplicação foi criada para mostrar um pouco sobre mim e minhas habilidades com programação web. Estarei atualizando os projetos conforme eu aprendo mais coisas. Bom proveito. :)
+</p>
 
 <h2>Artista das pixel arts</h2>
 
