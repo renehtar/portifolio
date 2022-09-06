@@ -229,6 +229,7 @@ header {
   width: 100%;
   height: 100vh;
   position: relative;
+  background: #000008;
 }
 
 .context__box {
