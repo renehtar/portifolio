@@ -1,0 +1,107 @@
+/* nome reneilson falha de iluminação */
+@keyframes lightFailing {
+  0%, 20%, 22%, 30%, 32%, 100% {
+    filter: drop-shadow(0px 0px 4px #fff);
+    color: #fff;
+  }
+  21%, 31% {
+    filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0));
+    color: rgb(150, 150, 150);
+  }
+}
+/* fim nome reneilson falha de iluminação */
+
+/* rotação dos 3 cubos, primeira section */
+@keyframes rotateCubes {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  60% {
+    transform: rotateX(360deg) rotateY(0deg);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(0deg);
+  }
+}
+/* fim rotação dos 3 cubos, primeira section */
+
+/* tremidinha */
+@keyframes shakeBottom {
+  0%, 100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+  10% {
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+  20%, 40%, 60% {
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
+  30%, 50%, 70% {
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+  }
+  80% {
+    -webkit-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+  }
+  90% {
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+}
+/* fim tremidinha */
+
+/* animação das bolhas do about */
+@keyframes bubbleUp {
+  from {
+    bottom: 0px;
+  }
+
+  to {
+    bottom: 110%;
+  }
+}
+
+@keyframes bubbleBurst {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1.5);
+    border-radius: 50%;
+  }
+}
+/* fim animação das bolhas do about */
+
+/* gradiente animado da section dos projetos */
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+/* fim gradiente animado da section dos projetos */
+
+@keyframes context__alert__active {
+  0%{
+    visibility: hidden;
+    opacity: 0;
+  }
+  10%,100%{
+    visibility: visible;
+    opacity: 1;
+  }
+}

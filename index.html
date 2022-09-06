@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous"/>
+    <link rel="icon" type="image/x-icon" href="assets/img/Logo.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifolio Reneilson</title>
+  </head>
+  <body>
+
+    <noscript>
+      <div class="noscript">
+        <p>ATENÇÃO</p>
+        <p>SEU JAVASCRIPT ESTÁ DESATIVADO</p>
+        <p>algumas funções podem não funcionar corretamente.</p>
+        <p>Ative o Javascript e recarregue a página para aproveitar 100% do site.</p>
+      </div>
+    </noscript>
+
+    <!-- cabeçalho -->
+    <header>
+
+      <div class="box__logo">
+        <img class="logo__img" src="assets/img/Logo.png" alt="Logo com abreviação RN" />
+        <h1 class="logo__text">RENEILSON</h1>
+        <span class="score__points">0</span>
+      </div>
+
+      <nav class="navbar__header">
+        <i class="fa-solid fa-bars icon__menu__mobile"></i>
+        <ul class="menu">
+          <li>
+            <a class="links__navbar__header" href="#first">Início</a>
+          </li>
+          <li>
+            <a class="links__navbar__header" href="#about">Sobre mim</a>
+          </li>
+          <li>
+            <a class="links__navbar__header" href="#skills">Habilidades</a>
+          </li>
+          <li>
+            <a class="links__navbar__header" href="#projects">Projetos</a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+    <!-- fim cabeçalho -->
+
+    <!-- conteúdo principal -->
+    <main>
+      <!-- section primaria -->
+      <section id="first" class="first">
+        <!-- STYLE DE MAIN_CUBE_CONTAINER NO ELEMENTSSTYLE.CSS/ -->
+        <div class="container__character__cards">
+          <div class="container__image__cards">
+            <img class="image__character__cards" src="./assets/img/JS Brain HD.png" alt="">
+            <p>JAVASCRIPT</p>
+          </div>
+          <div class="container__image__cards">
+            <img class="image__character__cards" src="./assets/img/HTML Skeleton HD.png" alt="">
+            <p>HTML</p>
+          </div>
+          <div class="container__image__cards">
+            <img class="image__character__cards" src="./assets/img/CSS Painter HD.png" alt="">
+            <p>CSS</p>
+          </div>
+        </div>
+
+        <div class="box__first__text">
+          <h2>Olá, eu sou <br> Francisco Reneilson</h2>
+          <p>DESENVOLVEDOR FRONT-END.</p>
+          <div class="box__social__links">
+            <a class="link__github" href="https://github.com/renehtar" target="_blank">
+              <i class="fa-brands fa-github"></i>
+              <p>github</p>
+            </a>
+            <a class="link__linkedin" href="https://linkedin.com/in/francisco-reneilson" target="_blank">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <p>Linkedin</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- fim section primaria -->
+
+      <!-- SECTION sobre mim -->
+      <section id="about" class="about">
+        <div class="context__box">
+          <div class="box__img__about">
+            <img src="assets/img/MyPhoto.png" alt="Foto mostrando Francisco Reneilson"/>
+          </div>
+  
+          <div class="box__text__about">
+            <h2>SOBRE MIM</h2>
+            <h3>Fortaleza, Ceará</h3>
+            <p>
+              Olá, me chamo Reneilson, tenho 20 anos e estou iniciando na carreira Front-end e estou dedicado a me tornar fullstack
+              futuramente. Já atuei na área de suporte técnico como estagiário no
+              Farias Brito em 2021, centro de Fortaleza. No entando, comecei a
+              estudar a fundo programação web somente no início de 2022.
+              Recentemente iniciei meus estudos em React-JS e Typescript, mas também 
+              estou em busca da minha primeira experiência Profissional.
+            </p>
+            <a class="link__curriculum" href="./assets/documents/Currículo_Reneilson.pdf" download>
+              <i class="fa-solid fa-download"></i>
+              <p>Currículo</p>
+            </a>
+          </div>
+        </div>
+        <!-- STYLE DE BOLHAS NO ELEMENTSSTYLE.CSS/ -->
+        <div class="bubble__container"></div>
+      </section>
+      <!-- fim SECTION sobre mim -->
+
+      <!-- section das habilidades -->
+      <section id="skills" class="skills">
+        <h2 class="title__skills">Habilidades</h2>
+
+        <!-- STYLE DE TECHNOLOGIES NO ELEMENTSSTYLE.CSS/ -->
+        <div class="box__left__skills">
+          <div class="container">
+            <img class="img__technologies" src="./assets/img/HTML Letter 1.png" data-index="0" alt="imagem de um envelope em pixel art representando o HTML">
+            <img class="img__technologies" src="./assets/img/CSS Letter 1.png" data-index="1" alt="imagem de um envelope em pixel art representando o CSS">
+            <img class="img__technologies" src="./assets/img/JS Letter 1.png" data-index="2" alt="imagem de um envelope em pixel art representando o Javascript">
+            <img class="img__technologies" src="./assets/img/Git Letter 1.png" data-index="3" alt="imagem de um envelope em pixel art representando o Git">
+            <img class="img__technologies" src="./assets/img/GitHub Letter 1.png" data-index="4" alt="imagem de um envelope em pixel art representando o GitHub">
+          </div>
+        </div>
+        
+        <div class="box__right__skills">
+          <img class="skill__gif" src="./assets/documents/mailman_hd_gf.gif" alt="Ilustração referenciando HTML e CSS">
+          <button class="tip__button">ajudar o carteiro</button>
+        </div>
+
+      <p class="context__alert"></p>
+
+        <div class="box__modal">
+          <div class="modal">
+            <img class="logo__modal">
+            <h2 class="title__modal"></h2>
+            <p class="text__modal"></p>
+          </div>
+        </div>
+      </section>
+      <!-- fim section das habilidades -->
+
+      <!-- section projetos -->
+      <section id="projects" class="projects">
+        <div class="container__box">
+          <ul class="box__cards"></ul>
+        </div>
+      </section>
+      <!-- fim section projetos -->
+
+      <!-- footer -->
+      <footer>
+        <div class="informations__footer">
+          <p>Email para contato: <a class="links__footer" href="mailto:reneilson22@gmail.com" target="_blank">reneilson22@gmail.com</a></p>
+          <p>Pixel arts feitas por <a class="links__footer" href="https://github.com/breno05s" target="_blank">Breno Lourenço</a></p>
+          <p>
+            Quer saber o que ando testando?
+            <a class="links__footer" href="https://codepen.io/reneilson" target="_blank">Veja:<i class="fa-brands fa-codepen"></i></a>
+          </p>
+        </div>
+
+        <div class="container__links__footer">
+          <div class="box__icons__links">
+            <a class="links__footer" href="https://github.com/renehtar" target="_blank"><i class="fa-brands fa-github footer__icon"></i></a>
+            <a class="links__footer" href="https://linkedin.com/in/francisco-reneilson" target="_blank"><i class="fa-brands fa-linkedin-in footer__icon"></i></a>
+            <a class="links__footer" href="https://codepen.io/reneilson" target="_blank"><i class="fa-brands fa-codepen footer__icon"></i></a>
+          </div>
+        </div>
+      </footer>
+      <!-- fim footer -->
+    </main>
+    <!-- fim conteúdo principal -->
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
